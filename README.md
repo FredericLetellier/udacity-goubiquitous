@@ -1,52 +1,64 @@
-Advanced Android Sample App
-===================================
+#Project 6: Go Ubiquitous
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
+In this project, you will build a wearable watch face for Sunshine to run 
+on an Android Wear device.
 
-Pre-requisites
---------------
-Android SDK 21 or Higher
-Build Tools version 21.1.2
-Android Support AppCompat 22.2.0
-Android Support Annotations 22.2.0
-Android Support GridLayout 22.2.0
-Android Support CardView 22.2.0
-Android Support Design 22.2.0
-Android Support RecyclerView 22.2.0
-Google Play Services GCM 7.0.0
-BumpTech Glide 3.5.2
+##Why this Project
+
+Android Wear is an exciting way to integrate your app more directly into users’ lives. 
+As a new developer, it will be important for you to understand how to perform 
+this integration. This project gives you an opportunity to design a companion app 
+for Sunshine, tying it to a watch face in order to enrich the experience.
+
+##What Will I Learn?
+
+Through this project, you will:
+
+* Understand the fundamentals of Android Wear.
+* Design for multiple watch form factors.
+* Communicate between a mobile device and a wearable device.
+
+##How Do I Complete this Project?
+
+###Supporting Courses
+
+You should have the skills you need to complete this app after completing:
+
+* Developing Android Apps
+http://www.udacity.com/course/ud853-nd
+* Advanced Android App Development
+http://www.udacity.com/course/ud855-nd
+* Android Ubiquitous Computing
+http://www.udacity.com/course/ud875-nd
 
 
-Getting Started
----------------
-This sample uses the Gradle build system.  To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+###Required Tasks
 
-Support
--------
+* Clone/Download a zip file of the final branch of Sunshine from Advanced Android App Development.
+https://github.com/udacity/Advanced_Android_Development/tree/7.05_Pretty_Wallpaper_Time
+* Spend time exploring the samples built into Android Studio, looking for ways to 
+incorporate that functionality into an Android Wear watchface.
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
+###Design Mocks
 
-License
--------
-Copyright 2015 The Android Open Source Project, Inc.
+Feel free to use the following square and round designs as a design reference.
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
+![square design](./design/mocks/square-design.png?raw=true)
+![round design](./design/mocks/round-design.png?raw=true)
 
-http://www.apache.org/licenses/LICENSE-2.0
+But certainly feel free to customize and create per your own taste and preferences! 
+We're looking forward to seeing what you create!
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
 
+# Rubric
+
+### Required Components
+
+* App works on both round and square face watches.
+* App displays the current time.
+* App displays the high and low temperatures.
+* App displays a graphic that summarizes the day’s weather (e.g., a sunny image, 
+rainy image, cloudy image, etc.).
+* App conforms to common standards found in the Android Nanodegree General 
+Project Guidelines. http://udacity.github.io/android-nanodegree-guidelines/core.html
